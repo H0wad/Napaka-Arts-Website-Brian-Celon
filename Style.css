@@ -85,3 +85,9 @@ h2{
     color: white;
     font-size: 26px;
 } 
+
+/* Aboutpage CSS */
+.aboutpage{
+    background-color: black;
+    color: white;
+}
