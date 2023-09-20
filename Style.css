@@ -71,8 +71,8 @@ header{
 }
 
 /* Styling heading 1 */
-h1{
-    font-size: 4em;
+.frontpage{
+    font-size: 2em;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -80,7 +80,7 @@ h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-55%);
 }
 
 /* Editing heading 2 */
@@ -126,7 +126,7 @@ h2{
     position: absolute;
     top: 35%;
     left: 50%;
-    transform: translateX(-50%) translateY(-30%);
+    transform: translateX(-50%) translateY(-20%);
 }
 
 .details_background{
