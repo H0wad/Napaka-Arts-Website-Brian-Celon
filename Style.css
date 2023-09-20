@@ -60,11 +60,14 @@ header{
 
 /* Editing background img  */
 .homepage{
+    background: url(Images/background.jpg);
+    margin: o;
     background-color: rgba(0, 0, 0, 0.2);
-    background: url(Images/background.jpg) no-repeat;
     height: 100vh; 
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
 }
 
 /* Styling heading 1 */
@@ -73,7 +76,7 @@ h1{
     margin: 0;
     padding: 0;
     text-align: center;
-    color: black;
+    color: yellow;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -86,14 +89,13 @@ h2{
     font-size: 26px;
 } 
 
+
 /* Aboutpage CSS */
 .aboutpage{
     background-color: black;
     color: white;
 }
 
-
-/* About page styling  */
 /*What is Napaka Arts? */ 
 .what{
     margin: 0;
@@ -113,4 +115,27 @@ h2{
     background-size: cover;
     background-position: center;
 
+}
+
+/* Details page css */
+.details{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+}
+
+.details_background{
+    background: url(Images/details_background.jpg);
+    margin: o;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
 }
